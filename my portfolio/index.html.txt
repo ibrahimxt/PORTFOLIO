@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Freelance Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Freelance Writer | Video Editor | Graphic Designer</h2>
+    <p>I help brands tell powerful stories through writing, visuals, and video.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+
+    <div class="portfolio-category">
+      <h3>✍️ Writing</h3>
+      <p>Sample article or copywriting project. Add links or uploads here.</p>
+    </div>
+
+    <div class="portfolio-category">
+      <h3>🎬 Video Editing</h3>
+      <p>Embed YouTube or Vimeo links to your edits here.</p>
+    </div>
+
+    <div class="portfolio-category">
+      <h3>🎨 Graphic Design</h3>
+      <p>Upload image previews of your designs here.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a multidisciplinary freelancer with skills in writing, video editing, and graphic design. I help bring ideas to life with creativity and strategy.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>Social: 
+      <a href="#">Instagram</a> | 
+      <a href="#">LinkedIn</a>
+    </p>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="_replyto" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
